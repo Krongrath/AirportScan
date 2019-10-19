@@ -1,0 +1,26 @@
+{
+  "model"           : "vgg16",
+  "weights"         : "imagenet",
+  "include_top"     : false,
+
+  "dataset_path"    : "dataset",
+  "train_path"      : "dataset/imageFile/train",
+  "dev_path"        : "dataset/imageFile/dev",
+  "test_path"       : "dataset/imageFile/test",
+  "features_train_path"   : "output/vgg16/features_train.h5",
+  "labels_train_path"     : "output/vgg16/labels_train.h5",
+
+  "features_dev_path"   : "output/vgg16/features_dev.h5",
+  "labels_dev_path"     : "output/vgg16/labels_dev.h5",
+
+  "features_test_path"   : "output/vgg16/features_test.h5",
+  "labels_test_path"     : "output/vgg16/labels_test.h5",
+
+  "results"         : "output/vgg16/results.txt",
+  "classifier_path" : "output/vgg16/classifier.pickle",
+  "model_path"      : "output/vgg16/model",
+
+  "test_size"       : 0.11,
+  "seed"            : 9,
+  "num_classes"     : 2
+}
